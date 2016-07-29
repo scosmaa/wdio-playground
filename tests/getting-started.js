@@ -4,17 +4,20 @@
 var webdriverio = require('webdriverio');
 var options = {
     desiredCapabilities: {
-        //browserName: 'MicrosoftEdge'
+        //browserName: 'MicrosoftEdge',
         //browserName: 'firefox'
         //browserName: 'internet explorer'
         browserName: 'chrome'
+       //waitforTimeout:50000,
+        //waitforInterval: 50000,
+        //pageLoadStrategy: 'none'
     }
 };
 
 webdriverio
     .remote(options)
     .init()
-    .url('http://www.google.com')
+    .url('http://localhost:63342/DojoPlayground/gridx.html')
     .getTitle().then(function(title) {
     console.log('Title was: ' + title);
 })

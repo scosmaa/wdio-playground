@@ -16,7 +16,10 @@
     "url": "https://github.com/scosmaa/wdio-playground/issues"
   },
   "homepage": "https://github.com/scosmaa/wdio-playground#readme",
-  "dependencies": {
-    "webdriverio": "^4.2.3"
+  "devDependencies": {
+    "express": "^4.14.0",
+    "wdio-mocha-framework": "^0.4.0",
+    "webdrivercss": "^1.1.10",
+    "webdriverio": "2.4.5"
   }
 }
