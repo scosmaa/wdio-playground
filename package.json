@@ -18,8 +18,8 @@
   "homepage": "https://github.com/scosmaa/wdio-playground#readme",
   "devDependencies": {
     "express": "^4.14.0",
-    "wdio-mocha-framework": "^0.4.0",
-    "webdrivercss": "^1.1.10",
-    "webdriverio": "2.4.5"
+    "mocha": "^3.0.2",
+    "webdrivercss": "2.0.0beta-rc1",
+    "webdriverio": "3.4"
   }
 }
